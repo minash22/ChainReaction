@@ -208,5 +208,5 @@ int main(int argc, char *argv[]) {
     pthread_t mainThread;
     pthread_create(&mainThread, NULL, (void *)masterFunc, NULL);
     pthread_join(mainThread, NULL);
-    return 0;
+    
 }
